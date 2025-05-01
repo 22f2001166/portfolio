@@ -13,7 +13,7 @@ function App() {
         <div className="absolute inset-0 rounded-full animate-glow-ring blur-xl opacity-50 group-hover:opacity-100 transition duration-700 z-0"></div>
 
           <img
-            src="./src/assets/profile.jpeg"
+            src="/profile.jpeg"
             alt="Lakshya Manglani"
             className="w-full h-full rounded-full border-4 border-white shadow-xl transition-all duration-700 ease-in-out group-hover:scale-105 profile-img-animate relative z-10"
           />
