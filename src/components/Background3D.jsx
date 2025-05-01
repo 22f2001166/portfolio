@@ -3,13 +3,13 @@ import { Stars, OrbitControls } from '@react-three/drei';
 
 export default function Background3D() {
   return (
-    <div className="absolute inset-0 z-0">
+    <div className="fixed inset-0 z-0 pointer-events-none">
       <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
         <fog attach="fog" args={['#0a0a0a', 5, 20]} />
         <Stars
           radius={100}
           depth={50}
-          count={10000}
+          count={1000}
           factor={4}
           saturation={0}
           fade

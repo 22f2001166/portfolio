@@ -29,14 +29,20 @@ export default function Navbar() {
       <nav className="flex items-center justify-center space-x-4 sm:space-x-6 md:space-x-10 text-sm sm:text-base">
         {['home', 'about', 'projects', 'contact'].map((section) => (
           <a
-            key={section}
-            href={`#${section}`}
-            className={`font-medium transition duration-300 ${
-              active === section ? 'text-cyan-400' : 'text-gray-300 hover:text-cyan-400'
-            }`}
-          >
-            {section.charAt(0).toUpperCase() + section.slice(1)}
-          </a>
+          key={section}
+          onClick={(e) => {
+            e.preventDefault();
+            const el = document.getElementById(section);
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+          className={`cursor-pointer font-medium transition duration-300 ${
+            active === section ? 'text-cyan-400' : 'text-gray-300 hover:text-cyan-400'
+          }`}
+        >
+          {section.charAt(0).toUpperCase() + section.slice(1)}
+        </a>
         ))}
       </nav>
     </div>

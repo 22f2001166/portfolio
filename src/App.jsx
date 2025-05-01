@@ -8,9 +8,9 @@ function App() {
       <Background3D />
       <Navbar />
 
-      <div id="home" className="relative z-10 flex flex-col items-center justify-center min-h-screen pt-20 px-4 text-center">
+      <div id="home" className="relative z-20 flex flex-col items-center justify-center min-h-screen pt-20 px-4 text-center">
         <div className="relative group w-36 h-36 md:w-40 md:h-40 rounded-full overflow-visible">
-        <div className="absolute inset-0 rounded-full animate-glow-ring blur-xl opacity-50 group-hover:opacity-100 transition duration-700 z-0"></div>
+        <div className="absolute inset-0 rounded-full animate-glow-ring blur-xl opacity-70 group-hover:opacity-100 transition duration-700 z-0"></div>
 
           <img
             src="/profile.jpeg"
@@ -42,7 +42,7 @@ function App() {
       </div>
 
 
-      <div id="about" className="min-h-screen flex flex-col items-center justify-center bg-black-800 text-gray-300 px-6 py-12 text-center font-sans">
+      <div id="about" className="z-20 min-h-screen flex flex-col items-center justify-center bg-black-800 text-gray-300 px-6 py-12 text-center font-sans">
         <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-8 mt-8 tracking-wide">
           About Me
         </h2>
@@ -56,7 +56,7 @@ function App() {
         </p>
       </div>
 
-      <section id="projects" className="min-h-screen bg-black-800 text-white px-4 py-12 scroll-mt-10 md:scroll-mt-20">
+      <section id="projects" className="z-20 min-h-screen bg-black-800 text-white px-4 py-12 scroll-mt-10 md:scroll-mt-20">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-center">My Projects</h2>
 
         <div className="w-full max-w-2xl mx-auto space-y-6">
