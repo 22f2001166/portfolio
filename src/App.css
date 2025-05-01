@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes logoEntrance {
+  0% {
+    transform: translateY(50px) scale(0.8) rotateX(10deg);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(-10px) scale(1.05) rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) scale(1) rotateX(0deg);
+    opacity: 1;
+  }
+}
+
+.profile-img-animate {
+  animation: logoEntrance 1.5s ease-out forwards;
+}
+
+@keyframes glowRing {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.animate-glow-ring {
+  background: linear-gradient(270deg, #ec4899, #8b5cf6, #3b82f6, #ec4899);
+  background-size: 600% 600%;
+  animation: glowRing 6s linear infinite;
+  border-radius: 9999px;
+}
