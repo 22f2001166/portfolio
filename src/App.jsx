@@ -5,7 +5,7 @@ import Background3D from './components/Background3D';
 function App() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b from-black to-black text-white">
-      <Background3D />
+      {/* <Background3D /> */}
       <Navbar />
 
       <div id="home" className="relative z-20 flex flex-col items-center justify-center min-h-screen pt-20 px-4 text-center">
