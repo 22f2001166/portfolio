@@ -6,4 +6,4 @@ For styling, Tailwind CSS is used.
 
 Also Deployed it using vercel.
 
-You can visit it here:  ![portfolio](https://portfolio-brown-ten-49.vercel.app/)
+You can visit it here:  [portfolio](https://portfolio-brown-ten-49.vercel.app/)
