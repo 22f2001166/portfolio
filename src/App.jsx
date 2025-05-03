@@ -20,7 +20,7 @@ function App() {
         </div>
 
 
-        <h1 className="mt-6 text-5xl md:text-6xl pb-4 font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent drop-shadow-xl animate__animated animate__fadeIn animate__delay-2s">
+        <h1 className="mt-6 text-4xl md:text-6xl pb-4 font-extrabold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent drop-shadow-xl animate__animated animate__fadeIn animate__delay-2s">
           Lakshya Manglani
         </h1>
 
