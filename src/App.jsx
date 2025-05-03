@@ -149,17 +149,6 @@ function App() {
           </a>
         </div>
 
-        <div className="mt-10 mb-10">
-          <a
-            href="https://drive.google.com/drive/folders/1E8H4v17BGEu43EiCiv-vihFpNoZ2jUs3?usp=sharing"  // Replace with your actual resume path
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-purple-600 via-grey-500 to-black-500 text-white px-6 py-3 rounded-full text-base font-medium hover:shadow-xl transition duration-300"
-          >
-            My Resume
-          </a>
-        </div>
-
         <p className="mt-20 text-sm text-gray-500">
           &copy; {new Date().getFullYear()} Lakshya Manglani. All rights reserved.
         </p>
