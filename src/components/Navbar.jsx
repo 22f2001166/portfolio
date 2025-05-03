@@ -32,6 +32,7 @@ export default function Navbar() {
           key={section}
           onClick={(e) => {
             e.preventDefault();
+            setActive(section);
             const el = document.getElementById(section);
             if (el) {
               el.scrollIntoView({ behavior: "smooth" });
