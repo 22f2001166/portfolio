@@ -91,7 +91,18 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-1">Bank Telemarketing Success Prediction</h3>
               <p className="text-gray-400 text-md">
-                Developed a ML model to predict customer responses to banking product offers based on marketing campaign data.
+                Developed an ML model to predict customer responses to banking product offers based on marketing campaign data.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-4 p-5 bg-gray-800 rounded-lg shadow-lg">
+            <div className="text-2xl text-green-400 mt-1">
+              <i className="fas fa-university"></i>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-1">AI Supply Chain Assistant</h3>
+              <p className="text-gray-400 text-md">
+                Built an LLM-powered tool for querying supply chain data and policies via vector search and SQL. Included role-based access and regional control with FastAPI and React.
               </p>
             </div>
           </div>
