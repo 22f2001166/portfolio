@@ -97,12 +97,12 @@ function App() {
           </div>
           <div className="flex items-start gap-4 p-5 bg-gray-800 rounded-lg shadow-lg">
             <div className="text-2xl text-green-400 mt-1">
-              <i className="fas fa-university"></i>
+              <i className="fas fa-robot"></i>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-1">AI Supply Chain Assistant</h3>
               <p className="text-gray-400 text-md">
-                Built an LLM-powered tool for querying supply chain data and policies via vector search and SQL. Included role-based access and regional control with FastAPI and React.
+                Built an LLM-powered tool for querying supply chain data and policies via vector search and SQL. Role-based access and regional control with FastAPI and React.
               </p>
             </div>
           </div>
